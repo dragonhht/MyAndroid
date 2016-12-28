@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyFirst</string>
+    <string name="but1">发送一条普通广播</string>
+    <string name="start_service">启动Service</string>
+    <string name="stop_service">关闭Service</string>
+    <string name="get_num">获取随机数</string>
+</resources>
