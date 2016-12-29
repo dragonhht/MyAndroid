@@ -1,0 +1,5 @@
+数据存储
+1,SharedPreferences
+2,SQLite数据库
+3，文件存储：1，java i/o流;
+4，数据共享ContentProvider
