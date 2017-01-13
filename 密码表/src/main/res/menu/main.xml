@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/item1"
+    android:alphabeticShortcut="8"
+    android:title="添加新密码"></item>
+    <item android:id="@+id/item2"
+        android:alphabeticShortcut="8"
+        android:title="导出密码"></item>
+    <item android:id="@+id/item3"
+        android:alphabeticShortcut="8"
+        android:title="退出登录"></item>
+</menu>

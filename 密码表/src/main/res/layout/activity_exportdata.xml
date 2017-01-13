@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:text="选择文件夹"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="79dp"
+        android:id="@+id/textView14" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:layout_alignBottom="@+id/textView14"
+        android:layout_toRightOf="@+id/textView14"
+        android:layout_toEndOf="@+id/textView14"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:id="@+id/fileText" />
+
+    <Button
+        android:text="选择文件夹"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fileText"
+        android:layout_alignLeft="@+id/fileText"
+        android:layout_alignStart="@+id/fileText"
+        android:layout_marginTop="27dp"
+        android:onClick="selectFile"
+        android:id="@+id/selectBtn" />
+
+    <Button
+        android:text="导出密码"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/selectBtn"
+        android:layout_alignRight="@+id/selectBtn"
+        android:layout_alignEnd="@+id/selectBtn"
+        android:layout_marginTop="24dp"
+        android:onClick="selectFile"
+        android:id="@+id/export" />
+
+
+</RelativeLayout>

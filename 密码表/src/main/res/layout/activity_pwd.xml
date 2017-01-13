@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relayout"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context=".Pwd_Activity">
+
+
+
+    <dragon.hht.com.mina.UI.MainHorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="颜色"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ListView
+                android:layout_marginTop="30dp"
+                android:id="@+id/colorlist"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></ListView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="密码"
+                android:id="@+id/mima"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+
+
+            <ListView
+                android:layout_marginTop="30dp"
+                android:id="@+id/otherlist"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></ListView>
+
+        </RelativeLayout>
+
+        <include layout="@layout/pwd_xiangxi"></include>
+
+    </LinearLayout>
+
+    </dragon.hht.com.mina.UI.MainHorizontalScrollView>
+
+</RelativeLayout>

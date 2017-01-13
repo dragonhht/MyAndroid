@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/select_back"
+            android:layout_width="wrap_content"
+            android:onClick="selectClick"
+            android:layout_height="wrap_content"
+            android:text="上一级"/>
+
+        <Button
+            android:id="@+id/select_this"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:onClick="selectClick"
+            android:text="确定"/>
+
+    </LinearLayout>
+
+    <ListView
+
+        android:id="@+id/directoryList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+</LinearLayout>
