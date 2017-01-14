@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item1"
+        android:alphabeticShortcut="8"
+        android:title="导入想做的事"></item>
+    <item android:id="@+id/item2"
+        android:alphabeticShortcut="8"
+        android:title="清除所有数据"></item>
+    <item android:id="@+id/item3"
+        android:alphabeticShortcut="8"
+        android:title="查看该事件的以往记录"></item>
+</menu>
