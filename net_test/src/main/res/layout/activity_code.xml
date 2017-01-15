@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="网址"
+        android:ems="10"
+        android:id="@+id/editText" />
+
+    <Button
+        android:text="查看"
+        android:onClick="codeClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/code_lookbtn" />
+
+    <ScrollView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:text="代码"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/code_text" />
+    </ScrollView>
+
+</LinearLayout>

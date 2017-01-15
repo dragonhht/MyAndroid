@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="dragon.hht.com.net_test.MainActivity">
+
+
+
+    <Button
+        android:id="@+id/btu1"
+        android:onClick="doClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="代码查看器"/>
+
+    <Button
+        android:text="图片查看器"
+        android:layout_width="wrap_content"
+        android:onClick="doClick"
+        android:layout_height="wrap_content"
+        android:id="@+id/btu2" />
+
+
+</LinearLayout>
